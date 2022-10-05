@@ -1,0 +1,9 @@
+export const host = "http://localhost:8000";
+export const registerRoute = `${host}/login/join`;
+export const googleRegisterRoute =`${host}/login/googleJoin`;
+export const googleLoginRoute = `${host}/login/google`;
+export const loginRoute = `${host}/login`;
+export const mainRoute = `${host}`;
+export const userRoute = `${host}/user`;
+export const makeDocsRoute = `${host}/docs/new`;
+export const typingDocsRoute = `${host}/docs`;
