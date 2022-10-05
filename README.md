@@ -61,6 +61,7 @@ Link: [MongoDb](https://nodejs.org/en/, "몽고디비 홈페이지로")
 ## 프로젝트 기능 설명 <각 페이지 별로>
 ### 로그인 페이지 : http://localhost:3000/login
 #### ● 로그인 및 회원가입을 지원하는 페이지
+![login] (https://user-images.githubusercontent.com/76609548/194014119-9b8ee0c6-fbf0-465c-94aa-b009938c5675.png")
 
 이 페이지에서 지원하는 기능은 다음과 같습니다.
 1. 로컬 로그인 : passport-local 전략 이용
@@ -95,6 +96,8 @@ Link: [MongoDb](https://nodejs.org/en/, "몽고디비 홈페이지로")
 ### 메인 페이지  : http://localhost:3000/
 #### ● 모든 문서의 정보들을 보여주는 페이지 입니다.
 
+![main] (https://user-images.githubusercontent.com/76609548/194014503-d5fb01eb-1a71-4b87-a6de-801f5f336d75.png)
+
 이 페이지에서 지원하는 기능은 다음과 같습니다.
 1. 로그인한 사람에 대한 정보
 > 로그인한 사람에 대한 정보가 반영되어 나타납니다.
@@ -118,6 +121,8 @@ Link: [MongoDb](https://nodejs.org/en/, "몽고디비 홈페이지로")
 ### 문서 생성 페이지 : http://localhost:3000/makeDocs
 #### ● 문서를 작업하기 전 만드는 문서를 생성하는 페이지입니다
 
+![make] (https://user-images.githubusercontent.com/76609548/194014712-c09503a0-55b3-42ac-a32c-7f7b3baccd8f.png)
+
 1. 문서 생성
 > 특정 문서를 작업하기 위해서 해야하는 기능이며 [제목] 란에 정보를 입력하여 "제출" 버튼을 클릭 할 경우 서버에 저장이 되어짐과 동시에 메인 페이지로 넘어갑니다.
 > 메인페이지에서는 생성한 문서 정보가 반영이 되어 나타납니다.
@@ -127,6 +132,8 @@ Link: [MongoDb](https://nodejs.org/en/, "몽고디비 홈페이지로")
 
 ### 개인 문서 목록 페이지 : http://localhost:3000/own/로그인한 유저 Id
 #### ● 개인이 생성한 문서를 따로 보여주는 페이지입니다.
+
+![myPage] (https://user-images.githubusercontent.com/76609548/194015019-0ffd939b-ff2e-4af7-a3c6-72ce7e03a31f.png)
 
 1. 문서를 생성한 적이 없을 경우
 > 문서를 생성한 적이 없을 경우에 어떠한 목록도 뜨지 않으며 , "만드신 문서가 존재하지 않습니다" 가 화면에 렌더링이 되어집니다
@@ -138,6 +145,8 @@ Link: [MongoDb](https://nodejs.org/en/, "몽고디비 홈페이지로")
 #### ● 실시간 문서가 작성되는 페이지입니다.
 
 **핵심 페이지 입니다.**
+
+![liveDocs] (https://user-images.githubusercontent.com/76609548/194015069-1837c471-8ce6-4def-af50-893a6071e430.png)
 
 1. 문서 불러오기
 > 사용자가 메인 페이지 혹은 개인 문서 목록 페이지를 통해 작성할 문서를 선택하여 들어오게 될 경우 해당 문서에 대한 정보가 서버의 docs 데이터 베이스 내에서 불러와 집니다.
